@@ -10,7 +10,6 @@ public class WanderAI : MonoBehaviour
     float currentSpeed;
 
     public float directionChangeInterval;
-    // We can reuse this script to make other creatures in the game wander about without chasing the player.
     Coroutine moveCoroutine;
 
     Rigidbody2D rb2d;
